@@ -1,0 +1,35 @@
+{
+    "schema": {
+        "ignore": {
+            "start": 0,
+            "end": 3
+        },
+        "labels": 4,
+        "rows": {
+            "start": 5
+        },
+        "fields": [
+            {
+                "position": 0,
+                "label": "Id",
+                "type": "Integer"
+            },
+            {
+                "position": 1,
+                "label": "Reading",
+                "type": "Float"
+            },
+            {
+                "position": 2,
+                "label": "Description",
+                "type": "String"
+            },
+            {
+                "position": 3,
+                "label": "Date",
+                "type": "Datetime",
+                "format": "YYYY-MM-DD"
+            }
+        ] 
+    }
+}
